@@ -1,8 +1,10 @@
-// math.js
-export function add(a, b) {
+// math.js - A module for mathematical operations
+function add(a, b) {
     return a + b;
 }
 
-export function subtract(a, b) {
+function subtract(a, b) {
     return a - b;
 }
+
+export { add, subtract }; // Exporting functions
